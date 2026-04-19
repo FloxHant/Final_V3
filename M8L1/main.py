@@ -101,5 +101,4 @@ def handle_message(message):
     else:
         bot.send_message(chat_id, "Я не понял команду. Пожалуйста, используйте меню:")
 
-# Запуск бота
 bot.polling()
